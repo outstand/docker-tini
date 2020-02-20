@@ -1,4 +1,4 @@
-FROM buildpack-deps:stretch-curl
+FROM buildpack-deps:buster-curl
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
 ENV TINI_VERSION v0.18.0
