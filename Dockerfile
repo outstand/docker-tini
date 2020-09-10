@@ -1,7 +1,7 @@
-FROM buildpack-deps:buster-curl
+FROM buildpack-deps:stable-curl
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
-ENV TINI_VERSION v0.18.0
+ENV TINI_VERSION v0.19.0
 
 RUN mkdir -p /tmp/build && \
     cd /tmp/build && \
